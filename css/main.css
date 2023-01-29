@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 18px Verdana;
+    color: rgb(1, 17, 71);
+    background: rgb(199, 245, 247);
+}
+#boxbuttons{
+    text-align: center;
+    margin: 20px;
+    display: block;
+}
+#boxbuttons .button{
+    text-transform: uppercase;
+    background: #3eaeff;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+#boxbuttons .button:hover{
+    background: #8f07ff;
+}
+#picbox{
+    margin: 0px auto;
+    width: 640px;
+}
+#boxcard{
+    z-index: 1;
+    margin: 10px 0 0;
+}
+
+#boxcard div{
+    float:left;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 4px solid #3eaeff;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px #a0ffcf;
+    background: #ff98e9;
+    z-index: 2;
+}
+#boxcard div img {
+    display: none;
+    border-radius: 10px;
+    z-index: 3;
+    width: 100px;
+}
